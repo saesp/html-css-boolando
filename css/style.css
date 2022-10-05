@@ -41,6 +41,10 @@ header{
 
 
 /* main */
+main{
+    margin: 40px auto;
+
+}
 .row1{
     display: flex;
 }
@@ -50,6 +54,8 @@ header{
 .row1:hover{
 
 }
+
+
 .container-main{
     width: 50%;
     margin: auto;
@@ -93,7 +99,6 @@ header{
     top: 10px;
     font-size: 25px;
 }
-
 
 
 
