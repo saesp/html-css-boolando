@@ -58,8 +58,44 @@ header{
 
 .img-main{
     width: 275px;
-    margin: 30px 10px;
+    margin: 0;
+    
 }
+
+.cont-img{
+    position: relative;
+}
+.label-red{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    bottom: 50px;
+}
+
+.label-green{
+    width: 75px;
+    height: 30px;
+    position: absolute;
+    background-color: green;
+    color: white;
+    top: 320px;
+    left: 55px;
+}
+.label-heart{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 338px;
+    right: 0;
+    top: 10px;
+    font-size: 25px;
+}
+
+
+
 
 /* footer */
 footer{
